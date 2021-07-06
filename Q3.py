@@ -1,0 +1,6 @@
+x=open("Q3.text","r+")
+data=x.read()
+print(data)
+data1=x.write("\nMy brother name is kishu\nHe is from jharkhand")
+print(data1)
+x.close()
